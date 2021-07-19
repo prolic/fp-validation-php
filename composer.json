@@ -1,0 +1,26 @@
+{
+    "name": "prolic/fp-validation-php",
+    "description": "FP Validation in PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "prolic",
+            "email": "saschaprolic@googlemail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "laminas/laminas-i18n": "^2.11",
+        "laminas/laminas-validator": "^2.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "Domain\\" : "src/Domain/",
+            "Validation\\" : "src/Validation/"
+        },
+        "files": [
+            "src/Validation/core.php"
+        ]
+    }
+}
